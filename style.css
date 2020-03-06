@@ -5,6 +5,14 @@
 header {
     margin-bottom: 30px;
 }
+hr{
+   height: 10px;
+    background: url("img/hr-img.png") repeat-x;
+    border-image-repeat: repeat;
+    border: 0;
+    
+}
+
 body {
     width: 901px;
     margin-left: auto;
@@ -65,10 +73,28 @@ footer {
     color: #757575;
     font-size: 15px;
     height: 50px;
+    
 }
 .footerImage {
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
+      .footerImage:before {
+          border-top: 7px solid #dfdfdf;
+          margin: 0 auto;
+          position: absolute;
+          top: 50%;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          width: 95%;
+          z-index: -1;
+    
+    }
+    
+
+
 
 .copyrightStatement { 
 text-align: center;
@@ -91,12 +117,25 @@ h3 {
     font-weight: bold;
     font-size: 15px;
 }
-
-/* .list-container > .list-background {
+/*  -----  Lists ----- */
+.list-container {
     position: relative;
-    z-index: -1px;
+    width: 100px;
+
+}
+.firstList {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    width: 100%;
+   
+
+}
+.secondList {
+position: absolute;
+
 }
 
-.list-container > .list, p {
-    margin-bottom: 50px;
-} */
+.thinLine {
+
+}
