@@ -1,0 +1,61 @@
+* {
+    box-sizing: border box;
+}
+
+header {
+    margin-bottom: 30px;
+}
+body {
+    width: 901px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.date-posted-print h2 {
+    
+    margin-bottom: 15px;
+    float: left;
+    color: #757575;
+    font-size: 10px;
+}
+
+.print-button {
+    float: right;
+    color: #757575;
+    font-size: 10px;
+    background-color: #f2f2f2;
+    padding: 2px;
+}
+
+.choco-pizza {
+    object-fit: fill;
+}
+
+.pizza-instructions {
+    text-align: left;
+    text-indent: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logo img {
+    margin-top: 15px;
+}
+.social {
+    float: right;
+    vertical-align: top;
+}
+
+/* .list-container > .list-background {
+    position: relative;
+    z-index: -1px;
+}
+
+.list-container > .list, p {
+    margin-bottom: 50px;
+} */
