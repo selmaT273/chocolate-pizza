@@ -5,6 +5,14 @@
 header {
     margin-bottom: 30px;
 }
+hr{
+   height: 10px;
+    background: url("img/hr-img.png") repeat-x;
+    border-image-repeat: repeat;
+    border: 0;
+    
+}
+
 body {
     width: 901px;
     margin-left: auto;
@@ -50,12 +58,84 @@ h1 {
     float: right;
     vertical-align: top;
 }
-
-/* .list-container > .list-background {
-    position: relative;
-    z-index: -1px;
+.shareRecipe {
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    float: right;
+    padding: 2px;
+    
 }
 
-.list-container > .list, p {
+
+footer { 
+    text-align: center;
+    color: #757575;
+    font-size: 15px;
+    height: 50px;
+    
+}
+.footerImage {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+      .footerImage:before {
+          border-top: 7px solid #dfdfdf;
+          margin: 0 auto;
+          position: absolute;
+          top: 50%;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          width: 95%;
+          z-index: -1;
+    
+    }
+    
+
+
+
+.copyrightStatement { 
+text-align: center;
+padding: 30px;
+margin-bottom: 30px;
+}
+.blogAuthorblurb {
     margin-bottom: 50px;
-} */
+}
+.vanessaBlog {
+    float: left;
+    margin-right: 15px;
+}
+.vanessaBlogBio { 
+    text-align: left;
+    width: 60%;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 15px;
+}
+/*  -----  Lists ----- */
+.list-container {
+    position: relative;
+    width: 100px;
+
+}
+.firstList {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    width: 100%;
+   
+
+}
+.secondList {
+position: absolute;
+
+}
+
+.thinLine {
+
+}
