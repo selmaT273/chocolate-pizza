@@ -50,6 +50,47 @@ h1 {
     float: right;
     vertical-align: top;
 }
+.shareRecipe {
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    float: right;
+    padding: 2px;
+    
+}
+
+
+footer { 
+    text-align: center;
+    color: #757575;
+    font-size: 15px;
+    height: 50px;
+}
+.footerImage {
+    text-align: center;
+}
+
+.copyrightStatement { 
+text-align: center;
+padding: 30px;
+margin-bottom: 30px;
+}
+.blogAuthorblurb {
+    margin-bottom: 50px;
+}
+.vanessaBlog {
+    float: left;
+    margin-right: 15px;
+}
+.vanessaBlogBio { 
+    text-align: left;
+    width: 60%;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 15px;
+}
 
 /* .list-container > .list-background {
     position: relative;
