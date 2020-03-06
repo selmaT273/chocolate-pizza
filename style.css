@@ -1,0 +1,30 @@
+* {
+    box-sizing: border box;
+}
+
+header {
+    margin-bottom: 30px;
+}
+main {
+    width: 901px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.date-posted-print h2 {
+    margin-bottom: 15px;
+    float: left;
+}
+
+.print-button {
+    float: right;
+}
+
+.choco-pizza {
+    object-fit: fill;
+}
