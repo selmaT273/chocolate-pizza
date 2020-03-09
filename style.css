@@ -5,6 +5,7 @@
 header {
     margin-bottom: 30px;
 }
+
 hr{
    height: 10px;
     background: url("img/hr-img.png") repeat-x;
@@ -67,14 +68,18 @@ h1 {
     
 }
 
-
 footer { 
     text-align: center;
     color: #757575;
     font-size: 15px;
     height: 50px;
-    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-bottom: 2px solid lightgray;
+    height: 15px;
+
 }
+
 .footerImage {
     text-align: center;
     position: relative;
