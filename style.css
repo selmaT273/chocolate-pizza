@@ -130,17 +130,26 @@ h3 {
 }
 .firstList {
     position: absolute;
-    top: 50px;
+    top: 30px;
     left: 40px;
-    width: 100%;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
    
 
 }
-.secondList {
-position: absolute;
 
+ul {
+    column-count: 2;
 }
 
-.thinLine {
+label {
+    white-space: nowrap;
+}
 
+.lineThrough {
+    text-decoration: line-through;
+}
+
+li {
+    padding-bottom: 12px;
 }
